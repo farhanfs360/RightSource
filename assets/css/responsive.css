@@ -1,0 +1,159 @@
+header.mobile {
+    display: none;
+}
+
+header.desktop {}
+
+/* Extra small devices (phones, 767px and down) */
+@media (max-width: 1440px) and (min-width: 1025px) {
+
+    .tmargin {
+        margin-top: 190px;
+    }
+}
+
+
+/* Extra small devices (phones, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+    header.mobile {
+        display: block;
+    }
+
+    header.desktop {
+        display: none;
+    }
+
+    a.site-logo img {
+        max-width: 180px;
+    }
+
+    .tmargin {
+        margin-top: 40px;
+    }
+
+    header.header.header.mobile {
+        padding: 15px 0px;
+    }
+
+    .slide-content {
+        position: relative;
+        left: 50px;
+        color: #FFF;
+        margin-top: -160px;
+        padding-bottom: 50px;
+    }
+
+    .post-slider {
+        top: 26px;
+    }
+
+    .slide-content h2 {
+        font-size: 16px;
+    }
+
+    .slide-content h3 {
+        font-size: 22px;
+    }
+
+    .hero-slider ul.slick-dots {
+        bottom: 40px;
+        left: 0;
+    }
+
+    .newsletter {
+        padding: 30px 0px;
+    }
+
+    .newsletter h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .newsletter-form {
+        padding: 7px;
+    }
+
+    .newsletter-form input[type=submit] {
+        padding: 12px 30px 12px 10px;
+    }
+
+    .btn-submit.fa.fa-chevron-right {
+        top: 27px;
+        right: 16px;
+    }
+
+    footer.footer {
+        padding: 50px 0px 30px;
+        text-align: center;
+    }
+
+    h3.widget-title {
+        font-size: 22px;
+    }
+
+    ul.ftr.nav {
+        flex-direction: column;
+        margin: 25px 0px;
+        padding: 20px 0px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    img.ftr-logo {
+        max-width: 260px;
+    }
+
+    ul.ftr.nav li {
+        padding: 10px 0px;
+    }
+
+    ul.sm-icons {
+        margin: 20px 0px 0px;
+        justify-content: center;
+    }
+
+    ul.sm-icons li {
+        margin: 0px 10px;
+    }
+
+
+    ul.slick-nav li svg {
+        width: 44px;
+        padding: 8px;
+    }
+
+
+    .posts {
+        padding: 40px 0px;
+    }
+
+    .post-row {
+        padding-top: 10px;
+    }
+
+
+    .posts h2.cat-heading {
+        font-size: 38px;
+    }
+
+    .content-box {
+        padding: 20px;
+    }
+
+    .post-box .post-content h3,
+    .post-box .post-content h3 a {
+        font-size: 22px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

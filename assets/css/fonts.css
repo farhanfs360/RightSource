@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@font-face {
+    font-family: 'FuturaLT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FuturaLT'), url('../fonts/FuturaLT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaLT-Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FuturaLT-Heavy'), url('../fonts/FuturaLT-Heavy.woff') format('woff');
+}
