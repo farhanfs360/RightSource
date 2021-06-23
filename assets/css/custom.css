@@ -37,11 +37,21 @@ body {
 }
 
 section .pd-100 {
-    padding: 100px 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .mt-100 {
-    margin: 100px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bg-hover {
+    transition: all 0.3s;
+}
+
+.bg-hover:hover {
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .container-fluid {
@@ -123,6 +133,11 @@ header.header ul.nav li.menu-item-has-children:hover:after {
 
 a.site-logo img {
     max-width: 155px;
+    transition: all 0.3s;
+}
+
+a.site-logo2 img {
+    max-width: 100px !important;
     transition: all 0.3s;
 }
 
@@ -307,6 +322,35 @@ ul.slick-nav li:hover svg {
 }
 
 
+/* =========Video PDF Slider============ */
+
+.video-slides ul.slick-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
+img.vdo-img {
+    width: 100%;
+}
+
+.video-slides ul.slick-nav li svg {
+    fill: var(--color-dgreen);
+    border: 2px solid var(--color-dgreen);
+    width: 54px;
+    border-radius: 50%;
+    padding: 14px;
+    transition: all 0.3s;
+}
+
+.video-slides ul.slick-nav li:hover svg {
+    fill: #FFF;
+    background: var(--color-dgreen);
+}
+
+
 /*========== Join Today =============*/
 
 .join-today .container {
@@ -397,9 +441,9 @@ ul.slick-nav li:hover svg {
 }
 
 .accordion-button {
-    border-bottom: none;
-    padding: 20px 0px;
+    padding: 0px 0px 40px;
     font-size: 26px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .accordion-button:not(.collapsed) {
@@ -443,7 +487,7 @@ ul.who-we-are-pts {
 ul.who-we-are-pts li {
     display: flex;
     background: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
     gap: 20px;
     align-items: center;
     width: fit-content;

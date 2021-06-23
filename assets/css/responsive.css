@@ -1,159 +1,205 @@
-header.mobile {
-    display: none;
-}
+header.header {}
 
-header.desktop {}
 
 /* Extra small devices (phones, 767px and down) */
-@media (max-width: 1440px) and (min-width: 1025px) {
 
-    .tmargin {
-        margin-top: 190px;
-    }
-}
+@media (max-width: 1440px) and (min-width: 1025px) {}
 
 
 /* Extra small devices (phones, 1024px and down) */
+
 @media only screen and (max-width: 1024px) {
-    header.mobile {
-        display: block;
+    section .pd-100 {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-
-    header.desktop {
-        display: none;
+    .mt-100 {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-
+    .doc-strip,
+    .doc-hrs-serv,
+    ul.who-we-are-pts li:nth-child(1),
+    ul.who-we-are-pts li:nth-child(2),
+    ul.who-we-are-pts li:nth-child(3),
+    .ovr-imgs img:last-child,
+    .celeb-nurse .slick-dots,
+    ul.who-we-are-pts {
+        position: unset;
+    }
     a.site-logo img {
-        max-width: 180px;
+        max-width: 125px;
+        transition: all 0.3s;
     }
-
-    .tmargin {
-        margin-top: 40px;
+    header.header {
+        padding: 15px 0px 10px;
     }
-
-    header.header.header.mobile {
-        padding: 15px 0px;
+    section.hero-banner {
+        background-size: cover;
+        padding: 130px 0px 0px;
     }
-
-    .slide-content {
-        position: relative;
-        left: 50px;
-        color: #FFF;
-        margin-top: -160px;
-        padding-bottom: 50px;
-    }
-
-    .post-slider {
-        top: 26px;
-    }
-
-    .slide-content h2 {
-        font-size: 16px;
-    }
-
-    .slide-content h3 {
-        font-size: 22px;
-    }
-
-    .hero-slider ul.slick-dots {
-        bottom: 40px;
-        left: 0;
-    }
-
-    .newsletter {
-        padding: 30px 0px;
-    }
-
-    .newsletter h2 {
-        font-size: 24px;
-        padding-bottom: 20px;
-    }
-
-    .newsletter-form {
-        padding: 7px;
-    }
-
-    .newsletter-form input[type=submit] {
-        padding: 12px 30px 12px 10px;
-    }
-
-    .btn-submit.fa.fa-chevron-right {
-        top: 27px;
-        right: 16px;
-    }
-
-    footer.footer {
-        padding: 50px 0px 30px;
+    .doc-strip {
+        margin: 20px 0px;
+        padding: 10px;
         text-align: center;
     }
-
-    h3.widget-title {
-        font-size: 22px;
+    .doc-hrs-serv {
+        max-width: none;
+        padding: 10px;
+        margin-bottom: 20px;
     }
-
-    ul.ftr.nav {
-        flex-direction: column;
-        margin: 25px 0px;
-        padding: 20px 0px;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+    h2 {
+        font-size: 30px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
-
-    img.ftr-logo {
-        max-width: 260px;
+    h3 {
+        font-size: 22px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
-
-    ul.ftr.nav li {
-        padding: 10px 0px;
+    h4 {
+        font-size: 20px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
-
-    ul.sm-icons {
-        margin: 20px 0px 0px;
+    p {
+        font-size: 15px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        padding: 5px 0px 10px !important;
+    }
+    section.call-cta .cta-content h2,
+    .join-today h2,
+    .ftr-form h2 {
+        font-size: 24px !important;
+    }
+    .call-cta .btn.btn-cta,
+    .who-we-are .btn.btn-cta {
+        background-position: 120px center;
+    }
+    .slide-content .btn.btn-cta {
+        background-position: 200px center;
+    }
+    .btn.btn-cta {
+        padding: 10px 50px 10px 20px;
+        background-color: var(--color-gold);
+        border-radius: 6px;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: bold;
+        background-image: url(../images/arrow-wt.svg);
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: 125px center;
+    }
+    .video-slides ul.slick-nav {
         justify-content: center;
+        width: 100%;
     }
-
-    ul.sm-icons li {
-        margin: 0px 10px;
+    img.vdo-img {
+        margin: 10px 0px;
     }
-
-
-    ul.slick-nav li svg {
-        width: 44px;
-        padding: 8px;
+    .video-slides ul.slick-nav li svg {
+        width: 40px;
+        padding: 10px;
     }
-
-
-    .posts {
-        padding: 40px 0px;
+    .join-today ul {
+        display: block;
     }
-
-    .post-row {
-        padding-top: 10px;
+    .join-today ul li:first-child,
+    .join-today ul li:last-child {
+        padding-left: 36px;
+        background-size: 20px;
     }
-
-
-    .posts h2.cat-heading {
-        font-size: 38px;
+    .join-today ul li,
+    .join-today ul li a {
+        font-size: 15px;
     }
-
-    .content-box {
+    .join-today ul li {
+        margin: 15px 0px;
+    }
+    .join-today .container {
         padding: 20px;
     }
-
-    .post-box .post-content h3,
-    .post-box .post-content h3 a {
-        font-size: 22px;
+    .ovr-imgs img:first-child {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ovr-imgs img:last-child {
+        display: none;
+    }
+    ul.who-we-are-pts li {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .who-we-are .float-md-end {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .celeb-nurse {
+        margin-top: 0px;
+    }
+    .nurse-slide .slick-slide {
+        margin: 0px;
+    }
+    .nurse-slide {
+        padding-top: 20px;
+    }
+    ul.ftr.nav li a {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    ul.sm-icons {
+        justify-content: center;
+    }
+    .bottom-footer {
+        padding: 40px 0px 0px;
+    }
+    ul.footer-menu {
+        display: flex;
+        gap: 8px 0px;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    ul.footer-menu li {
+        flex-basis: 50%;
+    }
+    .copyright p,
+    .copyright p a {
+        color: #FFF;
+        font-size: 13px !important;
+        text-align: center;
+        padding-top: 20px !important;
+    }
+    footer.footer {
+        padding: 50px 0px 25px;
     }
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {}
 
+
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {}
 
+
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {}
 
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {}
