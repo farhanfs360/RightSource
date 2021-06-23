@@ -536,6 +536,43 @@ ul.who-we-are-pts li:nth-child(3) {
     color: #FFF;
 }
 
+.celeb-nurse .slick-dots li button:before {
+    content: '' !important;
+}
+
+.celeb-nurse .slick-dots li {
+    height: 0px;
+}
+
+.celeb-nurse li.slick-active {
+    margin: 0px 20px 0px 0px;
+}
+
+.celeb-nurse .slick-dots li button {
+    /* font-size: 0; */
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 0px;
+    padding: 2px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: var(--color-dgreen);
+}
+
+.celeb-nurse .slick-dots li.slick-active button {
+    width: 40px;
+    transition: width 0.3s;
+}
+
+.celeb-nurse .slick-dots {
+    bottom: 715px;
+    width: auto;
+    left: 1160px;
+}
+
 
 /* ==== Button CTA ==== */
 

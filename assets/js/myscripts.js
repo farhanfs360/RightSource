@@ -5,10 +5,12 @@ $(document).ready(function() {
         //centerPadding: '60px',
         slidesToShow: 3,
         arrows: false,
-        dosts: true,
+        dots: true,
         autoplay: true,
         //prevArrow: $('.prev'),
         //nextArrow: $('.next'),
+
+
         responsive: [{
                 breakpoint: 1200,
                 settings: {
