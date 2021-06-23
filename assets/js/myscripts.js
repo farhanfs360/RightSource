@@ -52,7 +52,7 @@ $(document).ready(function() {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             },
             {
@@ -61,7 +61,7 @@ $(document).ready(function() {
                     arrows: false,
                     centerMode: false,
                     centerPadding: '40px',
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             },
             {

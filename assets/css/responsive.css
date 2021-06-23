@@ -3,12 +3,48 @@ header.header {}
 
 /* Extra small devices (phones, 767px and down) */
 
-@media (max-width: 1440px) and (min-width: 1025px) {}
+@media (max-width: 1670px) and (min-width: 1199px) {
+    ul.who-we-are-pts li:nth-child(1) {
+        position: relative;
+        top: 310px;
+        left: 30px;
+    }
+    ul.who-we-are-pts li:nth-child(2) {
+        position: relative;
+        top: 320px;
+        left: 160px;
+    }
+    ul.who-we-are-pts li:nth-child(3) {
+        position: relative;
+        left: 250px;
+        top: 330px;
+    }
+    .celeb-nurse .slick-dots {
+        bottom: 715px;
+        width: auto;
+        left: 1000px;
+        display: flex !important;
+    }
+    .doc-hrs-serv {
+        right: 0px;
+        top: 310px;
+    }
+    .doc-strip {
+        background: #FFF;
+        padding: 30px 20px 20px;
+        position: absolute;
+        right: 285px;
+        top: 350px;
+    }
+}
 
 
 /* Extra small devices (phones, 1024px and down) */
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1200px) {
+    .hero-content {
+        margin-bottom: 15px;
+    }
     section .pd-100 {
         padding-top: 30px;
         padding-bottom: 30px;
